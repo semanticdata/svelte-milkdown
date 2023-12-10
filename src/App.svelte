@@ -13,6 +13,7 @@ This is a demo for using Milkdown with **Svelte**.`;
     Editor.make()
       .config((ctx) => {
         ctx.set(rootCtx, dom);
+        // ctx.set(rootCtx, "#content");
         ctx.set(defaultValueCtx, markdown);
       })
       .config(nord)
@@ -23,4 +24,10 @@ This is a demo for using Milkdown with **Svelte**.`;
 
 <main>
   <div use:editor />
+
+  <form class="form">
+    <label class="label" for="colour">Favourite colour</label>
+    <input class="input" type="text" id="colour" />
+    <button class="button" type="submit">Save</button>
+  </form>
 </main>
