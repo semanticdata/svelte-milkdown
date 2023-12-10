@@ -24,10 +24,4 @@ This is a demo for using Milkdown with **Svelte**.`;
 
 <main>
   <div use:editor />
-
-  <form class="form">
-    <label class="label" for="colour">Favourite colour</label>
-    <input class="input" type="text" id="colour" />
-    <button class="button" type="submit">Save</button>
-  </form>
 </main>
