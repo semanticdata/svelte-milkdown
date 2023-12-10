@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/github/repo-size/semanticdata/svelte-milkdown" />
   <img src="https://img.shields.io/github/commit-activity/t/semanticdata/svelte-milkdown" />
   <img src="https://img.shields.io/github/last-commit/semanticdata/svelte-milkdown" />
-  <img src="https://img.shields.io/website/https/semanticdata.github.io/svelte-milkdown.svg" />
+  <img src="https://img.shields.io/website/https/svelte-milkdown.vercel.app.svg" />
 </p>
 
 ## Introduction
