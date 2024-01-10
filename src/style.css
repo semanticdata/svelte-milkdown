@@ -2,10 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  /* background: #e0b0ff; */
+}
+
+body {
+  /* background: paleturquoise; */
+}
+
+main {
+  /* background: palevioletred; */
+}
+
 .milkdown {
+  /* background: palegreen; */
   @apply bg-slate-50 px-2 py-4 m-5 border rounded;
+  margin-top: 2rem;
+  height: 80vh;
+  /* border-radius: 14px; */
+  /* width: 50vw; */
+  /* margin: auto; */
+  /* padding: 5rem; */
+  overflow-y: scroll;
 }
 
 .editor {
+  /* background: palegoldenrod; */
   @apply mx-auto;
+}
+
+section.section {
+  /* background: magenta; */
+  max-width: 1000px;
+  margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .milkdown {
+    margin: 2rem 0;
+    padding: 1rem 1rem;
+  }
 }

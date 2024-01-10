@@ -75,7 +75,7 @@ Editor.make().config((ctx) => {
 
 And then the editor will be rendered with default value.
 
-### Dom
+### DOM
 
 You can also use HTML as default value.
 
