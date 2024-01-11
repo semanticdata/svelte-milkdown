@@ -8,7 +8,11 @@
   "dependencies": {
     "@milkdown/core": "7.1.1",
     "@milkdown/ctx": "7.1.1",
+    "@milkdown/plugin-clipboard": "^7.3.3",
+    "@milkdown/plugin-cursor": "^7.3.3",
+    "@milkdown/plugin-history": "^7.3.3",
     "@milkdown/preset-commonmark": "7.1.1",
+    "@milkdown/preset-gfm": "^7.3.3",
     "@milkdown/prose": "7.1.1",
     "@milkdown/theme-nord": "7.1.1",
     "@milkdown/transformer": "7.1.1",
@@ -17,7 +21,7 @@
     "@tsconfig/svelte": "^3.0.0",
     "svelte": "^3.59.2",
     "svelte-check": "^2.10.3",
-    "tailwindcss": "^3.3.6",
+    "tailwindcss": "^3.4.1",
     "tslib": "^2.6.2",
     "typescript": "^4.9.5",
     "vite": "^4.5.1"
