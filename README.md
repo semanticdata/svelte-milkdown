@@ -8,11 +8,39 @@
   <img src="https://img.shields.io/website/https/svelte-milkdown.vercel.app.svg" />
 </p>
 
-## Introduction
+## Overview
 
 A simple example for using milkdown with svelte.
 
 [Open in StackBlitz](https://stackblitz.com/github/Milkdown/examples/tree/main/svelte-commonmark)
+
+## Table of Contents
+
+<details>
+<summary>Show/Hide</summary>
+
+- [Overview](#overview)
+- [Table of Contents](#table-of-contents)
+- [Getting Started](#getting-started)
+- [Helpful Links](#helpful-links)
+- [Interacting with Editor](#interacting-with-editor)
+  - [Register to DOM](#register-to-dom)
+  - [Setting Default Value](#setting-default-value)
+  - [Markdown](#markdown)
+  - [DOM](#dom)
+  - [JSON](#json)
+- [Inspecting Editor Status](#inspecting-editor-status)
+- [Adding Listeners](#adding-listeners)
+  - [Doc Listener](#doc-listener)
+- [Readonly Mode](#readonly-mode)
+- [Using Actions](#using-actions)
+- [Destroying](#destroying)
+- [Official Plugins](#official-plugins)
+- [Community Plugins](#community-plugins)
+- [Apps \& Integrations](#apps--integrations)
+- [License](#license)
+
+</details>
 
 ## Getting Started
 
