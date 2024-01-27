@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Svelte Milkdown",
+  "description": "🥛 A simple example for using Milkdown with Svelte. ",
+  "version": "0.0.1",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "24": "milk.png"
+  }
+}
