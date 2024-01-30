@@ -1,9 +1,15 @@
 {
+  "name": "svelte-milkdown",
   "private": true,
-  "version": "0.0.0",
+  "description": "A simple example for using Milkdown with Svelte. ",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "start": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semanticdata/svelte-milkdown.git"
   },
   "dependencies": {
     "@milkdown/core": "7.1.1",

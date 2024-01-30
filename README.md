@@ -44,15 +44,20 @@ A simple example for using milkdown with svelte.
 
 ## Getting Started
 
-1. Clone the repo.
+1. Clone the repo: `git clone https://github.com/semanticdata/svelte-milkdown.git`.
 
-2. Install dependencies by `pnpm install`.
+2. Install dependencies: `pnpm install`.
 
-3. Run the example by `pnpm start`.
+3. Run the example: `pnpm start`.
+
+4. Open `http://localhost:5173/` in your browser.
 
 ## Helpful Links
 
-- [Interacting with the Editor](https://milkdown.dev/docs/guide/interacting-with-editor)
+- Svelte - [Documentation](https://svelte.dev/docs/introduction)
+- Milkdown - [Documentation](https://milkdown.dev/docs)
+  - [Svelte recipe](https://milkdown.dev/docs/recipes/svelte)
+  - [Interacting with the Editor](https://milkdown.dev/docs/guide/interacting-with-editor)
 
 ## Interacting with Editor
 
