@@ -10,7 +10,7 @@
 
 ## Overview
 
-A simple example for using milkdown with svelte.
+A simple example for using [Milkdown](https://milkdown.dev/) with [Svelte](https://svelte.dev/).
 
 [Open in StackBlitz](https://stackblitz.com/github/Milkdown/examples/tree/main/svelte-commonmark)
 
