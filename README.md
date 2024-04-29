@@ -1,14 +1,10 @@
-<h1 align=center>Svelte 🥛 Milkdown</h1>
+# Svelte 🥛 Milkdown
 
-<p align="center">
-  <img src="https://img.shields.io/github/languages/code-size/semanticdata/svelte-milkdown" />
-  <img src="https://img.shields.io/github/repo-size/semanticdata/svelte-milkdown" />
-  <img src="https://img.shields.io/github/commit-activity/t/semanticdata/svelte-milkdown" />
-  <img src="https://img.shields.io/github/last-commit/semanticdata/svelte-milkdown" />
-  <img src="https://img.shields.io/website/https/svelte-milkdown.vercel.app.svg" />
-</p>
-
-## Overview
+![code size](https://img.shields.io/github/languages/code-size/semanticdata/svelte-milkdown)
+![repo size](https://img.shields.io/github/repo-size/semanticdata/svelte-milkdown)
+![commit activity](https://img.shields.io/github/commit-activity/t/semanticdata/svelte-milkdown)
+![last commit](https://img.shields.io/github/last-commit/semanticdata/svelte-milkdown)
+![website up?](https://img.shields.io/website/https/svelte-milkdown.vercel.app.svg)
 
 A simple example for using [Milkdown](https://milkdown.dev/) with [Svelte](https://svelte.dev/).
 
@@ -19,26 +15,21 @@ A simple example for using [Milkdown](https://milkdown.dev/) with [Svelte](https
 <details>
 <summary>Show/Hide</summary>
 
-- [Overview](#overview)
-- [Table of Contents](#table-of-contents)
-- [Getting Started](#getting-started)
-- [Helpful Links](#helpful-links)
-- [Interacting with Editor](#interacting-with-editor)
-  - [Register to DOM](#register-to-dom)
-  - [Setting Default Value](#setting-default-value)
-  - [Markdown](#markdown)
-  - [DOM](#dom)
-  - [JSON](#json)
-- [Inspecting Editor Status](#inspecting-editor-status)
-- [Adding Listeners](#adding-listeners)
-  - [Doc Listener](#doc-listener)
-- [Readonly Mode](#readonly-mode)
-- [Using Actions](#using-actions)
-- [Destroying](#destroying)
-- [Official Plugins](#official-plugins)
-- [Community Plugins](#community-plugins)
-- [Apps \& Integrations](#apps--integrations)
-- [License](#license)
+- [Svelte 🥛 Milkdown](#svelte--milkdown)
+  - [Table of Contents](#table-of-contents)
+  - [Getting Started](#getting-started)
+  - [Helpful Links](#helpful-links)
+  - [Interacting with Editor](#interacting-with-editor)
+  - [Inspecting Editor Status](#inspecting-editor-status)
+  - [Adding Listeners](#adding-listeners)
+  - [Readonly Mode](#readonly-mode)
+  - [Using Actions](#using-actions)
+  - [Destroying](#destroying)
+  - [Official Plugins](#official-plugins)
+  - [Community Plugins](#community-plugins)
+  - [Apps and Integrations](#apps-and-integrations)
+  - [🛠️ Technology](#️-technology)
+  - [© License](#-license)
 
 </details>
 
@@ -353,7 +344,7 @@ Milkdown provides the following official plugins: | name | description | | :----
 - [milkdown-lab](https://github.com/enpitsuLin/milkdown-lab)  
   Unofficial plugins collection for milkdown.
 
-## Apps & Integrations
+## Apps and Integrations
 
 - [milkdown-vscode](https://github.com/Saul-Mirone/milkdown-vscode)  
   Use milkdown as markdown editor of VSCode.
@@ -378,6 +369,14 @@ Milkdown provides the following official plugins: | name | description | | :----
 - [typelog](https://typelog.dev)  
   Microblogging platform for devs. Uses milkdown as the editor for writing posts and comments.
 
-## License
+## 🛠️ Technology
 
-Source code in this repository is available under the [MIT](LICENSE) license. You are free to use this code however you see fit. That said, some acknowledgement would be well received.
+The site uses various technologies cobbled together. Here's some of them:
+
+- [Prettier](https://github.com/prettier/prettier): an opinionated code formatter.
+
+<!-- ## 💜 Attributions -->
+
+## © License
+
+Source code in this repository is available under the [MIT License](LICENSE).
