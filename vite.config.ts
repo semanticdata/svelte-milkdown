@@ -5,7 +5,6 @@ import open, { apps } from 'open';
 
 export default defineConfig({
   plugins: [svelte(), VitePWA({registerType: 'autoUpdate'})],
-  // base: '/svelte-milkdown/', // only used for GitHub Pages
   publicDir: 'public',
   server: {
     open: '/index.html'
