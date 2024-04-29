@@ -4,32 +4,11 @@
 
 A simple example for using [Milkdown](https://milkdown.dev/) with [Svelte](https://svelte.dev/).
 
-[Open in StackBlitz](https://stackblitz.com/github/Milkdown/examples/tree/main/svelte-commonmark)
+[![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://semanticdata.github.io/svelte-milkdown/) [![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://svelte-milkdown.vercel.app/)
 
-## Table of Contents
+[![deploy to stackblitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/Milkdown/examples/tree/main/svelte-commonmark)
 
-<details>
-<summary>Show/Hide</summary>
-
-- [Svelte 🥛 Milkdown](#svelte--milkdown)
-  - [Table of Contents](#table-of-contents)
-  - [Getting Started](#getting-started)
-  - [Helpful Links](#helpful-links)
-  - [Interacting with Editor](#interacting-with-editor)
-  - [Inspecting Editor Status](#inspecting-editor-status)
-  - [Adding Listeners](#adding-listeners)
-  - [Readonly Mode](#readonly-mode)
-  - [Using Actions](#using-actions)
-  - [Destroying](#destroying)
-  - [Official Plugins](#official-plugins)
-  - [Community Plugins](#community-plugins)
-  - [Apps and Integrations](#apps-and-integrations)
-  - [🛠️ Technology](#️-technology)
-  - [© License](#-license)
-
-</details>
-
-## Getting Started
+## 🚀 Getting Started
 
 1. Clone the repo: `git clone https://github.com/semanticdata/svelte-milkdown.git`.
 
@@ -369,7 +348,11 @@ Milkdown provides the following official plugins: | name | description | | :----
 
 The site uses various technologies cobbled together. Here's some of them:
 
-- [Prettier](https://github.com/prettier/prettier): an opinionated code formatter.
+- [Vite](https://vitejs.dev/): next generation frontend tooling.
+- [Svelte](https://svelte.dev/): s new way to build web applications.
+- [Milkdown](https://milkdown.dev/): plugin driven Markdown framework/editor.
+- [Tailwind CSS](https://tailwindcss.com/): utility-first CSS framework.
+- [Prettier](https://github.com/prettier/prettier): opinionated code formatter.
 
 <!-- ## 💜 Attributions -->
 
