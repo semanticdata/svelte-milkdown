@@ -5,7 +5,7 @@ import {VitePWA} from 'vite-plugin-pwa'
 
 export default defineConfig({
   plugins: [svelte(), VitePWA({registerType: 'autoUpdate'})],
-  base: '/svelte-milkdown/',
+  // base: '/svelte-milkdown/',
   publicDir: 'public',
   server: {
     open: '/index.html'
