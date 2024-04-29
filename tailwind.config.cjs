@@ -4,9 +4,7 @@ module.exports = {
   content: ['**/*.tsx', '**/*.ts', '**/*.html'],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {}
   },
-  plugins: [
-    require('@tailwindcss/typography')
-  ],
+  plugins: [require('@tailwindcss/typography')]
 }
