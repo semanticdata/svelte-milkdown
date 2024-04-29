@@ -8,6 +8,9 @@
   import {gfm} from '@milkdown/preset-gfm'
   import {cursor} from '@milkdown/plugin-cursor'
 
+  import {listener, listenerCtx} from '@milkdown/plugin-listener'
+  let jsonOutput
+
   const markdown = `# Milkdown Svelte Commonmark
 
 > You're scared of a world where you're needed.
@@ -56,6 +59,9 @@ You can [link](https://example.dom/).
       .config((ctx) => {
         ctx.set(rootCtx, dom)
         ctx.set(defaultValueCtx, markdown)
+        ctx.get(listenerCtx).updated((ctx, doc, prevDoc) => {
+          jsonOutput = doc.toJSON()
+        })
       })
       .config(nord)
       .use(commonmark)
@@ -63,6 +69,7 @@ You can [link](https://example.dom/).
       .use(history)
       .use(clipboard)
       .use(cursor)
+      .use(listener)
       .create()
   }
 </script>
