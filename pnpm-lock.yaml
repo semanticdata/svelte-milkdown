@@ -7,7 +7,7 @@ settings:
 importers:
 
   .:
-    dependencies:
+    devDependencies:
       '@milkdown/core':
         specifier: 7.1.1
         version: 7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
@@ -15,20 +15,20 @@ importers:
         specifier: 7.1.1
         version: 7.1.1
       '@milkdown/plugin-clipboard':
-        specifier: ^7.3.5
-        version: 7.3.5(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
+        specifier: ^7.3.6
+        version: 7.3.6(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
       '@milkdown/plugin-cursor':
-        specifier: ^7.3.5
-        version: 7.3.5(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
+        specifier: ^7.3.6
+        version: 7.3.6(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
       '@milkdown/plugin-history':
-        specifier: ^7.3.5
-        version: 7.3.5(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
+        specifier: ^7.3.6
+        version: 7.3.6(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
       '@milkdown/preset-commonmark':
         specifier: 7.1.1
         version: 7.1.1(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
       '@milkdown/preset-gfm':
-        specifier: ^7.3.5
-        version: 7.3.5(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/preset-commonmark@7.1.1(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
+        specifier: ^7.3.6
+        version: 7.3.6(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/preset-commonmark@7.1.1(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
       '@milkdown/prose':
         specifier: 7.1.1
         version: 7.1.1
@@ -40,19 +40,22 @@ importers:
         version: 7.1.1(@milkdown/prose@7.1.1)
       '@sveltejs/vite-plugin-svelte':
         specifier: ^2.5.3
-        version: 2.5.3(svelte@3.59.2)(vite@4.5.3(sass@1.74.1))
+        version: 2.5.3(svelte@3.59.2)(vite@4.5.3(sass@1.75.0))
       '@tailwindcss/typography':
-        specifier: ^0.5.12
-        version: 0.5.12(tailwindcss@3.4.3)
+        specifier: ^0.5.13
+        version: 0.5.13(tailwindcss@3.4.3)
       '@tsconfig/svelte':
         specifier: ^3.0.0
         version: 3.0.0
+      prettier:
+        specifier: 3.2.5
+        version: 3.2.5
       svelte:
         specifier: ^3.59.2
         version: 3.59.2
       svelte-check:
         specifier: ^2.10.3
-        version: 2.10.3(postcss-load-config@4.0.2(postcss@8.4.38))(postcss@8.4.38)(sass@1.74.1)(svelte@3.59.2)
+        version: 2.10.3(postcss-load-config@4.0.2(postcss@8.4.38))(postcss@8.4.38)(sass@1.75.0)(svelte@3.59.2)
       tailwindcss:
         specifier: ^3.4.3
         version: 3.4.3
@@ -64,11 +67,7 @@ importers:
         version: 4.9.5
       vite:
         specifier: ^4.5.3
-        version: 4.5.3(sass@1.74.1)
-    devDependencies:
-      prettier:
-        specifier: 3.2.5
-        version: 3.2.5
+        version: 4.5.3(sass@1.75.0)
 
 packages:
 
@@ -243,24 +242,24 @@ packages:
   '@milkdown/exception@7.1.1':
     resolution: {integrity: sha512-8oxWE4VbVuc+/D9zQlJUV2Yq7bwgClIHY22CQDHxl5Ck8UbKx2Oy+2XGacSiU2lXFQBmlh7/1wf3QyelCy7iUw==}
 
-  '@milkdown/exception@7.3.5':
-    resolution: {integrity: sha512-wpiVibi6H7zb26rgNSbJvQ9PaLC9665a2UipIaZ2XMrixt6mwoDqoIw4/9CSKGzRvFJDB/uS7IVwO9/2+RcovA==}
+  '@milkdown/exception@7.3.6':
+    resolution: {integrity: sha512-oEcQVyp3Lcvw3ySBc2EeCFAN1t/zvY+pdBsBSsIDB2uYueQK2PGSkzhd5WbvHnzv4lV4P19hoyPLwviqvQbVqA==}
 
-  '@milkdown/plugin-clipboard@7.3.5':
-    resolution: {integrity: sha512-vmnMNc8Yz3yu298PH0JWlRO38/wtarTV5M8enuOFrfYw28XOtbD42KKMbphm2AXWB+wgzNGsHsTWnZh1igpttw==}
+  '@milkdown/plugin-clipboard@7.3.6':
+    resolution: {integrity: sha512-840aG6Ntp/Wdf/I6vuyni4ycDqyO0SsAEZI0t2KmPXqCj+fW2sf0HJtsa/w/R5lBOHhxUsW98nqUvP0BeKL1Cg==}
     peerDependencies:
       '@milkdown/core': ^7.2.0
       '@milkdown/prose': ^7.2.0
 
-  '@milkdown/plugin-cursor@7.3.5':
-    resolution: {integrity: sha512-BqJ2t0Gwp+Hg36RyWrsc2IZHQz8EnXGAEs0dgj7v71Lfa7kThsDIXUiDa2idaHJ/KrC+5n8zsQDYpqd1LpjkCQ==}
+  '@milkdown/plugin-cursor@7.3.6':
+    resolution: {integrity: sha512-6Q5YPO+uLug+NgKVGsDxiicK1TE0GzjvgXJvJLm2VNOufIuOy5onaT34qDLzxmiGSM+8KzCfv5D/B8wZRW+0cQ==}
     peerDependencies:
       '@milkdown/core': ^7.2.0
       '@milkdown/ctx': ^7.2.0
       '@milkdown/prose': ^7.2.0
 
-  '@milkdown/plugin-history@7.3.5':
-    resolution: {integrity: sha512-lYUCBLhTFT9Y85RtKFjEkn+Xth0a5e+SzvqDG551jWTeIKYCpPqUI9BZAJpEh1TiIdHihScNSTVsGFLFmEE1Hg==}
+  '@milkdown/plugin-history@7.3.6':
+    resolution: {integrity: sha512-c6JCwzGTp+N+9ZDtJ3YsmY5jU1j/OYr4kPok/zpSufihSK+np5+ixsuhmVLfyNlpllDiOD1HaxScRCdJGWa7tQ==}
     peerDependencies:
       '@milkdown/core': ^7.2.0
       '@milkdown/ctx': ^7.2.0
@@ -274,8 +273,8 @@ packages:
       '@milkdown/prose': ^7.0.0-next.0
       '@milkdown/transformer': ^7.0.0-next.0
 
-  '@milkdown/preset-gfm@7.3.5':
-    resolution: {integrity: sha512-ZsvLzwT+xhIR7iIeOe7J7gbdJpZreORe7yUaUI/OOdP8rl21+DC5FVBYsqAr56hlAbfIAhe05ZL2REL1Ba7efQ==}
+  '@milkdown/preset-gfm@7.3.6':
+    resolution: {integrity: sha512-7T1EFTHgGLtdPUP4ciKbwpTo7NKu4BlLoJHmDS4yLZJtg+hw28ZPhya0mY+dOOjETf0Nd49hh4REM4kpOd7n2A==}
     peerDependencies:
       '@milkdown/core': ^7.2.0
       '@milkdown/ctx': ^7.2.0
@@ -306,8 +305,8 @@ packages:
       '@milkdown/prose': ^7.0.0-next.0
       '@milkdown/transformer': ^7.0.0-next.0
 
-  '@milkdown/utils@7.3.5':
-    resolution: {integrity: sha512-5PLvFDhhkCDBRMRq98q1JHYkTPL/uVD3oLRPM96dbcprlMoi1jjwZ7wqVDOpcGhxoXYo1umQ5hddWjNysDkSSA==}
+  '@milkdown/utils@7.3.6':
+    resolution: {integrity: sha512-V2ljZN72PIJ/7dQmEtasyNVi7wpgfjxmPX+b82cncd3vA+m/4wKosTeK+oHRIlt0JlpMGNrxd4ikIGHoy1+6UQ==}
     peerDependencies:
       '@milkdown/core': ^7.2.0
       '@milkdown/ctx': ^7.2.0
@@ -353,8 +352,8 @@ packages:
       svelte: ^3.54.0 || ^4.0.0 || ^5.0.0-next.0
       vite: ^4.0.0
 
-  '@tailwindcss/typography@0.5.12':
-    resolution: {integrity: sha512-CNwpBpconcP7ppxmuq3qvaCxiRWnbhANpY/ruH4L5qs2GCiVDJXde/pjj2HWPV1+Q4G9+V/etrwUYopdcjAlyg==}
+  '@tailwindcss/typography@0.5.13':
+    resolution: {integrity: sha512-ADGcJ8dX21dVVHIwTRgzrcunY6YY9uSlAHHGVKvkA+vLc5qLwEszvKts40lx7z0qc4clpjclwLeK5rVCV2P/uw==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
 
@@ -672,16 +671,15 @@ packages:
   longest-streak@3.1.0:
     resolution: {integrity: sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==}
 
-  lru-cache@10.2.0:
-    resolution: {integrity: sha512-2bIM8x+VAf6JT4bKAljS1qUWgMsqZRPGJS6FSahIMPVvctcNhyVp7AJu7quxOW9jwkryBReKZY5tY5JYv2n/7Q==}
+  lru-cache@10.2.2:
+    resolution: {integrity: sha512-9hp3Vp2/hFQUiIwKo8XCeFVnrg8Pk3TYNPIR7tJADKi5YfcF7vEaK7avFHTlSy3kOKYaJQaalfEo6YuXdceBOQ==}
     engines: {node: 14 || >=16.14}
 
   magic-string@0.25.9:
     resolution: {integrity: sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==}
 
-  magic-string@0.30.9:
-    resolution: {integrity: sha512-S1+hd+dIrC8EZqKyT9DstTH/0Z+f76kmmvZnkfQVmOpDEF9iVgdYif3Q/pIWHmCoo59bQVGW0kVL3e2nl+9+Sw==}
-    engines: {node: '>=12'}
+  magic-string@0.30.10:
+    resolution: {integrity: sha512-iIRwTIf0QKV3UAnYK4PU8uiEc4SRh5jX0mwpIwETPpHdhVM4f53RSwS/vXvN1JhGX+Cs7B8qIq3d6AH49O5fAQ==}
 
   markdown-table@3.0.3:
     resolution: {integrity: sha512-Z1NL3Tb1M9wH4XESsCDEksWoKTdlUafKc4pt0GRwjUyXaCFZ+dc3g2erqB6zm3szA2IUSi7VnPI+o/9jnxh9hw==}
@@ -741,8 +739,8 @@ packages:
   micromark-core-commonmark@1.1.0:
     resolution: {integrity: sha512-BgHO1aRbolh2hcrzL2d1La37V0Aoz73ymF8rAcKnohLy93titmv62E0gP8Hrx9PKcKrqCZ1BbLGbP3bEhoXYlw==}
 
-  micromark-core-commonmark@2.0.0:
-    resolution: {integrity: sha512-jThOz/pVmAYUtkroV3D5c1osFXAMv9e0ypGDOIZuCeAe91/sD6BoE2Sjzt30yuXtwOYUmySOhMas/PVyh02itA==}
+  micromark-core-commonmark@2.0.1:
+    resolution: {integrity: sha512-CUQyKr1e///ZODyD1U3xit6zXwy1a8q2a1S1HKtIlmgvurrEpaw/Y9y6KSIbF8P59cn/NjzHyO+Q2fAyYLQrAA==}
 
   micromark-extension-gfm-autolink-literal@2.0.0:
     resolution: {integrity: sha512-rTHfnpt/Q7dEAK1Y5ii0W8bhfJlVJFnJMHIPisfPK3gpVNuOP0VnRl96+YJ3RYWV/P4gFeQoGKNlT3RhuvpqAg==}
@@ -864,8 +862,8 @@ packages:
   micromark-util-subtokenize@1.1.0:
     resolution: {integrity: sha512-kUQHyzRoxvZO2PuLzMt2P/dwVsTiivCK8icYTeR+3WgbuPqfHgPPy7nFKbeqRivBvn/3N3GBiNC+JRTMSxEC7A==}
 
-  micromark-util-subtokenize@2.0.0:
-    resolution: {integrity: sha512-vc93L1t+gpR3p8jxeVdaYlbV2jTYteDje19rNSS/H5dlhxUYll5Fy6vJ2cDwP8RnsXi818yGty1ayP55y3W6fg==}
+  micromark-util-subtokenize@2.0.1:
+    resolution: {integrity: sha512-jZNtiFl/1aY73yS3UGQkutD0UbhTt68qnRpw2Pifmz5wV9h8gOVsN70v+Lq/f1rKaU/W8pxRe8y8Q9FX1AOe1Q==}
 
   micromark-util-symbol@1.1.0:
     resolution: {integrity: sha512-uEjpEYY6KMs1g7QfJ2eX1SQEV+ZT4rUD3UcF6l57acZvLNK7PBZL+ty82Z1qhK1/yXIY4bdx04FKMgR0g4IAag==}
@@ -931,8 +929,8 @@ packages:
     engines: {node: ^14 || ^16 || >=18}
     hasBin: true
 
-  nanoid@5.0.6:
-    resolution: {integrity: sha512-rRq0eMHoGZxlvaFOUdK1Ev83Bd1IgzzR+WJ3IbDJ7QOSdAxYjlurSPqFs9s4lJg29RT6nPwizFtJhQS6V5xgiA==}
+  nanoid@5.0.7:
+    resolution: {integrity: sha512-oLxFY2gd2IqnjcYyOXD8XGCftpGtZP2AbHbOkthDkvRywH5ayNtPVy9YlOPcHckXzbLTCHpkb7FB+yuxKV13pQ==}
     engines: {node: ^18 || >=20}
     hasBin: true
 
@@ -1059,8 +1057,8 @@ packages:
   prosemirror-keymap@1.2.2:
     resolution: {integrity: sha512-EAlXoksqC6Vbocqc0GtzCruZEzYgrn+iiGnNjsJsH4mrnIGex4qbLdWWNza3AW5W36ZRrlBID0eM6bdKH4OStQ==}
 
-  prosemirror-model@1.19.4:
-    resolution: {integrity: sha512-RPmVXxUfOhyFdayHawjuZCxiROsm9L4FCUA6pWI+l7n2yCBsWy9VpdE1hpDHUS8Vad661YLY9AzqfjLhAKQ4iQ==}
+  prosemirror-model@1.20.0:
+    resolution: {integrity: sha512-q7AY7vMjKYqDCeoedgUiAgrLabliXxndJuuFmcmc2+YU1SblvnOiG2WEACF2lwAZsMlfLpiAilA3L+TWlDqIsQ==}
 
   prosemirror-schema-list@1.3.0:
     resolution: {integrity: sha512-Hz/7gM4skaaYfRPNgr421CU4GSwotmEwBVvJh5ltGiffUJwm7C8GfN/Bc6DR1EKEp5pDKhODmdXXyi9uIsZl5A==}
@@ -1074,8 +1072,8 @@ packages:
   prosemirror-transform@1.8.0:
     resolution: {integrity: sha512-BaSBsIMv52F1BVVMvOmp1yzD3u65uC3HTzCBQV1WDPqJRQ2LuHKcyfn0jwqodo8sR9vVzMzZyI+Dal5W9E6a9A==}
 
-  prosemirror-view@1.33.3:
-    resolution: {integrity: sha512-P4Ao/bc4OrU/2yLIf8dL4lJaEtjLR3QjIvQHgJYp2jUS7kYM4bSR6okbBjkqzOs/FwUon6UGjTLdKMnPL1MZqw==}
+  prosemirror-view@1.33.5:
+    resolution: {integrity: sha512-AbYYLgg2h5CLARLcTtbNrMARlMwV51jTrezcJkV0NS9J4vi28+rhJ45iIWVSjCcRY209BoySDuJ58b8wIFqdmQ==}
 
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
@@ -1142,8 +1140,8 @@ packages:
   sander@0.5.1:
     resolution: {integrity: sha512-3lVqBir7WuKDHGrKRDn/1Ye3kwpXaDOMsiRP1wd6wpZW56gJhsbp5RqQpA6JG/P+pkXizygnr1dKR8vzWaVsfA==}
 
-  sass@1.74.1:
-    resolution: {integrity: sha512-w0Z9p/rWZWelb88ISOLyvqTWGmtmu2QJICqDBGyNnfG4OUnPX9BBjjYIXUpXCMOOg5MQWNpqzt876la1fsTvUA==}
+  sass@1.75.0:
+    resolution: {integrity: sha512-ShMYi3WkrDWxExyxSZPst4/okE9ts46xZmJDSawJQrnte7M1V9fScVB+uNXOVKRBt0PggHOwoZcn8mYX4trnBw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -1391,8 +1389,8 @@ packages:
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
-  yaml@2.4.1:
-    resolution: {integrity: sha512-pIXzoImaqmfOrL7teGUBt/T7ZDnyeGBWyXQBvOVhLkWLN37GXv8NMLK406UY6dS51JfcQHsmcW5cJ441bHg6Lg==}
+  yaml@2.4.2:
+    resolution: {integrity: sha512-B3VqDZ+JAg1nZpaEmWtTXUlBneoGx6CPM9b0TENK6aoSu5t73dItudwdgmi6tHlIZZId4dZ9skcAQ2UbcyAeVA==}
     engines: {node: '>= 14'}
     hasBin: true
 
@@ -1517,36 +1515,36 @@ snapshots:
     dependencies:
       tslib: 2.6.2
 
-  '@milkdown/exception@7.3.5':
+  '@milkdown/exception@7.3.6':
     dependencies:
       tslib: 2.6.2
 
-  '@milkdown/plugin-clipboard@7.3.5(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))':
+  '@milkdown/plugin-clipboard@7.3.6(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))':
     dependencies:
       '@milkdown/core': 7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
       '@milkdown/prose': 7.1.1
-      '@milkdown/utils': 7.3.5(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
+      '@milkdown/utils': 7.3.6(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
       tslib: 2.6.2
     transitivePeerDependencies:
       - '@milkdown/ctx'
       - '@milkdown/transformer'
 
-  '@milkdown/plugin-cursor@7.3.5(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))':
+  '@milkdown/plugin-cursor@7.3.6(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))':
     dependencies:
       '@milkdown/core': 7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
       '@milkdown/ctx': 7.1.1
       '@milkdown/prose': 7.1.1
-      '@milkdown/utils': 7.3.5(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
+      '@milkdown/utils': 7.3.6(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
       tslib: 2.6.2
     transitivePeerDependencies:
       - '@milkdown/transformer'
 
-  '@milkdown/plugin-history@7.3.5(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))':
+  '@milkdown/plugin-history@7.3.6(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))':
     dependencies:
       '@milkdown/core': 7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
       '@milkdown/ctx': 7.1.1
       '@milkdown/prose': 7.1.1
-      '@milkdown/utils': 7.3.5(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
+      '@milkdown/utils': 7.3.6(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
       tslib: 2.6.2
     transitivePeerDependencies:
       - '@milkdown/transformer'
@@ -1564,15 +1562,15 @@ snapshots:
       tslib: 2.6.2
       unist-util-visit: 4.1.2
 
-  '@milkdown/preset-gfm@7.3.5(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/preset-commonmark@7.1.1(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))':
+  '@milkdown/preset-gfm@7.3.6(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/preset-commonmark@7.1.1(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))':
     dependencies:
       '@milkdown/core': 7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
       '@milkdown/ctx': 7.1.1
-      '@milkdown/exception': 7.3.5
+      '@milkdown/exception': 7.3.6
       '@milkdown/preset-commonmark': 7.1.1(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
       '@milkdown/prose': 7.1.1
       '@milkdown/transformer': 7.1.1(@milkdown/prose@7.1.1)
-      '@milkdown/utils': 7.3.5(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
+      '@milkdown/utils': 7.3.6(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
       remark-gfm: 4.0.0
       tslib: 2.6.2
     transitivePeerDependencies:
@@ -1588,12 +1586,12 @@ snapshots:
       prosemirror-history: 1.4.0
       prosemirror-inputrules: 1.4.0
       prosemirror-keymap: 1.2.2
-      prosemirror-model: 1.19.4
+      prosemirror-model: 1.20.0
       prosemirror-schema-list: 1.3.0
       prosemirror-state: 1.4.3
       prosemirror-tables: 1.3.7
       prosemirror-transform: 1.8.0
-      prosemirror-view: 1.33.3
+      prosemirror-view: 1.33.5
       tslib: 2.6.2
 
   '@milkdown/theme-nord@7.1.1(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)':
@@ -1628,14 +1626,14 @@ snapshots:
       nanoid: 4.0.2
       tslib: 2.6.2
 
-  '@milkdown/utils@7.3.5(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))':
+  '@milkdown/utils@7.3.6(@milkdown/core@7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1)))(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))':
     dependencies:
       '@milkdown/core': 7.1.1(@milkdown/ctx@7.1.1)(@milkdown/prose@7.1.1)(@milkdown/transformer@7.1.1(@milkdown/prose@7.1.1))
       '@milkdown/ctx': 7.1.1
-      '@milkdown/exception': 7.3.5
+      '@milkdown/exception': 7.3.6
       '@milkdown/prose': 7.1.1
       '@milkdown/transformer': 7.1.1(@milkdown/prose@7.1.1)
-      nanoid: 5.0.6
+      nanoid: 5.0.7
       tslib: 2.6.2
 
   '@nodelib/fs.scandir@2.1.5':
@@ -1662,30 +1660,30 @@ snapshots:
     dependencies:
       escape-string-regexp: 5.0.0
 
-  '@sveltejs/vite-plugin-svelte-inspector@1.0.4(@sveltejs/vite-plugin-svelte@2.5.3(svelte@3.59.2)(vite@4.5.3(sass@1.74.1)))(svelte@3.59.2)(vite@4.5.3(sass@1.74.1))':
+  '@sveltejs/vite-plugin-svelte-inspector@1.0.4(@sveltejs/vite-plugin-svelte@2.5.3(svelte@3.59.2)(vite@4.5.3(sass@1.75.0)))(svelte@3.59.2)(vite@4.5.3(sass@1.75.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 2.5.3(svelte@3.59.2)(vite@4.5.3(sass@1.74.1))
+      '@sveltejs/vite-plugin-svelte': 2.5.3(svelte@3.59.2)(vite@4.5.3(sass@1.75.0))
       debug: 4.3.4
       svelte: 3.59.2
-      vite: 4.5.3(sass@1.74.1)
+      vite: 4.5.3(sass@1.75.0)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@2.5.3(svelte@3.59.2)(vite@4.5.3(sass@1.74.1))':
+  '@sveltejs/vite-plugin-svelte@2.5.3(svelte@3.59.2)(vite@4.5.3(sass@1.75.0))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 1.0.4(@sveltejs/vite-plugin-svelte@2.5.3(svelte@3.59.2)(vite@4.5.3(sass@1.74.1)))(svelte@3.59.2)(vite@4.5.3(sass@1.74.1))
+      '@sveltejs/vite-plugin-svelte-inspector': 1.0.4(@sveltejs/vite-plugin-svelte@2.5.3(svelte@3.59.2)(vite@4.5.3(sass@1.75.0)))(svelte@3.59.2)(vite@4.5.3(sass@1.75.0))
       debug: 4.3.4
       deepmerge: 4.3.1
       kleur: 4.1.5
-      magic-string: 0.30.9
+      magic-string: 0.30.10
       svelte: 3.59.2
       svelte-hmr: 0.15.3(svelte@3.59.2)
-      vite: 4.5.3(sass@1.74.1)
-      vitefu: 0.2.5(vite@4.5.3(sass@1.74.1))
+      vite: 4.5.3(sass@1.75.0)
+      vitefu: 0.2.5(vite@4.5.3(sass@1.75.0))
     transitivePeerDependencies:
       - supports-color
 
-  '@tailwindcss/typography@0.5.12(tailwindcss@3.4.3)':
+  '@tailwindcss/typography@0.5.13(tailwindcss@3.4.3)':
     dependencies:
       lodash.castarray: 4.4.0
       lodash.isplainobject: 4.0.6
@@ -1713,7 +1711,7 @@ snapshots:
 
   '@types/sass@1.45.0':
     dependencies:
-      sass: 1.74.1
+      sass: 1.75.0
 
   '@types/unist@2.0.10': {}
 
@@ -1981,13 +1979,13 @@ snapshots:
 
   longest-streak@3.1.0: {}
 
-  lru-cache@10.2.0: {}
+  lru-cache@10.2.2: {}
 
   magic-string@0.25.9:
     dependencies:
       sourcemap-codec: 1.4.8
 
-  magic-string@0.30.9:
+  magic-string@0.30.10:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
 
@@ -2158,7 +2156,7 @@ snapshots:
       micromark-util-types: 1.1.0
       uvu: 0.5.6
 
-  micromark-core-commonmark@2.0.0:
+  micromark-core-commonmark@2.0.1:
     dependencies:
       decode-named-character-reference: 1.0.2
       devlop: 1.1.0
@@ -2173,7 +2171,7 @@ snapshots:
       micromark-util-html-tag-name: 2.0.0
       micromark-util-normalize-identifier: 2.0.0
       micromark-util-resolve-all: 2.0.0
-      micromark-util-subtokenize: 2.0.0
+      micromark-util-subtokenize: 2.0.1
       micromark-util-symbol: 2.0.0
       micromark-util-types: 2.0.0
 
@@ -2187,7 +2185,7 @@ snapshots:
   micromark-extension-gfm-footnote@2.0.0:
     dependencies:
       devlop: 1.1.0
-      micromark-core-commonmark: 2.0.0
+      micromark-core-commonmark: 2.0.1
       micromark-factory-space: 2.0.0
       micromark-util-character: 2.1.0
       micromark-util-normalize-identifier: 2.0.0
@@ -2404,7 +2402,7 @@ snapshots:
       micromark-util-types: 1.1.0
       uvu: 0.5.6
 
-  micromark-util-subtokenize@2.0.0:
+  micromark-util-subtokenize@2.0.1:
     dependencies:
       devlop: 1.1.0
       micromark-util-chunked: 2.0.0
@@ -2447,7 +2445,7 @@ snapshots:
       debug: 4.3.4
       decode-named-character-reference: 1.0.2
       devlop: 1.1.0
-      micromark-core-commonmark: 2.0.0
+      micromark-core-commonmark: 2.0.1
       micromark-factory-space: 2.0.0
       micromark-util-character: 2.1.0
       micromark-util-chunked: 2.0.0
@@ -2457,7 +2455,7 @@ snapshots:
       micromark-util-normalize-identifier: 2.0.0
       micromark-util-resolve-all: 2.0.0
       micromark-util-sanitize-uri: 2.0.0
-      micromark-util-subtokenize: 2.0.0
+      micromark-util-subtokenize: 2.0.1
       micromark-util-symbol: 2.0.0
       micromark-util-types: 2.0.0
     transitivePeerDependencies:
@@ -2500,7 +2498,7 @@ snapshots:
 
   nanoid@4.0.2: {}
 
-  nanoid@5.0.6: {}
+  nanoid@5.0.7: {}
 
   normalize-path@3.0.0: {}
 
@@ -2526,7 +2524,7 @@ snapshots:
 
   path-scurry@1.10.2:
     dependencies:
-      lru-cache: 10.2.0
+      lru-cache: 10.2.2
       minipass: 7.0.4
 
   picocolors@1.0.0: {}
@@ -2552,7 +2550,7 @@ snapshots:
   postcss-load-config@4.0.2(postcss@8.4.38):
     dependencies:
       lilconfig: 3.1.1
-      yaml: 2.4.1
+      yaml: 2.4.2
     optionalDependencies:
       postcss: 8.4.38
 
@@ -2587,7 +2585,7 @@ snapshots:
 
   prosemirror-commands@1.5.2:
     dependencies:
-      prosemirror-model: 1.19.4
+      prosemirror-model: 1.20.0
       prosemirror-state: 1.4.3
       prosemirror-transform: 1.8.0
 
@@ -2595,20 +2593,20 @@ snapshots:
     dependencies:
       prosemirror-state: 1.4.3
       prosemirror-transform: 1.8.0
-      prosemirror-view: 1.33.3
+      prosemirror-view: 1.33.5
 
   prosemirror-gapcursor@1.3.2:
     dependencies:
       prosemirror-keymap: 1.2.2
-      prosemirror-model: 1.19.4
+      prosemirror-model: 1.20.0
       prosemirror-state: 1.4.3
-      prosemirror-view: 1.33.3
+      prosemirror-view: 1.33.5
 
   prosemirror-history@1.4.0:
     dependencies:
       prosemirror-state: 1.4.3
       prosemirror-transform: 1.8.0
-      prosemirror-view: 1.33.3
+      prosemirror-view: 1.33.5
       rope-sequence: 1.3.4
 
   prosemirror-inputrules@1.4.0:
@@ -2621,37 +2619,37 @@ snapshots:
       prosemirror-state: 1.4.3
       w3c-keyname: 2.2.8
 
-  prosemirror-model@1.19.4:
+  prosemirror-model@1.20.0:
     dependencies:
       orderedmap: 2.1.1
 
   prosemirror-schema-list@1.3.0:
     dependencies:
-      prosemirror-model: 1.19.4
+      prosemirror-model: 1.20.0
       prosemirror-state: 1.4.3
       prosemirror-transform: 1.8.0
 
   prosemirror-state@1.4.3:
     dependencies:
-      prosemirror-model: 1.19.4
+      prosemirror-model: 1.20.0
       prosemirror-transform: 1.8.0
-      prosemirror-view: 1.33.3
+      prosemirror-view: 1.33.5
 
   prosemirror-tables@1.3.7:
     dependencies:
       prosemirror-keymap: 1.2.2
-      prosemirror-model: 1.19.4
+      prosemirror-model: 1.20.0
       prosemirror-state: 1.4.3
       prosemirror-transform: 1.8.0
-      prosemirror-view: 1.33.3
+      prosemirror-view: 1.33.5
 
   prosemirror-transform@1.8.0:
     dependencies:
-      prosemirror-model: 1.19.4
+      prosemirror-model: 1.20.0
 
-  prosemirror-view@1.33.3:
+  prosemirror-view@1.33.5:
     dependencies:
-      prosemirror-model: 1.19.4
+      prosemirror-model: 1.20.0
       prosemirror-state: 1.4.3
       prosemirror-transform: 1.8.0
 
@@ -2756,7 +2754,7 @@ snapshots:
       mkdirp: 0.5.6
       rimraf: 2.7.1
 
-  sass@1.74.1:
+  sass@1.75.0:
     dependencies:
       chokidar: 3.6.0
       immutable: 4.3.5
@@ -2817,7 +2815,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  svelte-check@2.10.3(postcss-load-config@4.0.2(postcss@8.4.38))(postcss@8.4.38)(sass@1.74.1)(svelte@3.59.2):
+  svelte-check@2.10.3(postcss-load-config@4.0.2(postcss@8.4.38))(postcss@8.4.38)(sass@1.75.0)(svelte@3.59.2):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.25
       chokidar: 3.6.0
@@ -2826,7 +2824,7 @@ snapshots:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 3.59.2
-      svelte-preprocess: 4.10.7(postcss-load-config@4.0.2(postcss@8.4.38))(postcss@8.4.38)(sass@1.74.1)(svelte@3.59.2)(typescript@4.9.5)
+      svelte-preprocess: 4.10.7(postcss-load-config@4.0.2(postcss@8.4.38))(postcss@8.4.38)(sass@1.75.0)(svelte@3.59.2)(typescript@4.9.5)
       typescript: 4.9.5
     transitivePeerDependencies:
       - '@babel/core'
@@ -2844,7 +2842,7 @@ snapshots:
     dependencies:
       svelte: 3.59.2
 
-  svelte-preprocess@4.10.7(postcss-load-config@4.0.2(postcss@8.4.38))(postcss@8.4.38)(sass@1.74.1)(svelte@3.59.2)(typescript@4.9.5):
+  svelte-preprocess@4.10.7(postcss-load-config@4.0.2(postcss@8.4.38))(postcss@8.4.38)(sass@1.75.0)(svelte@3.59.2)(typescript@4.9.5):
     dependencies:
       '@types/pug': 2.0.10
       '@types/sass': 1.45.0
@@ -2856,7 +2854,7 @@ snapshots:
     optionalDependencies:
       postcss: 8.4.38
       postcss-load-config: 4.0.2(postcss@8.4.38)
-      sass: 1.74.1
+      sass: 1.75.0
       typescript: 4.9.5
 
   svelte@3.59.2: {}
@@ -2998,18 +2996,18 @@ snapshots:
       unist-util-stringify-position: 4.0.0
       vfile-message: 4.0.2
 
-  vite@4.5.3(sass@1.74.1):
+  vite@4.5.3(sass@1.75.0):
     dependencies:
       esbuild: 0.18.20
       postcss: 8.4.38
       rollup: 3.29.4
     optionalDependencies:
       fsevents: 2.3.3
-      sass: 1.74.1
+      sass: 1.75.0
 
-  vitefu@0.2.5(vite@4.5.3(sass@1.74.1)):
+  vitefu@0.2.5(vite@4.5.3(sass@1.75.0)):
     optionalDependencies:
-      vite: 4.5.3(sass@1.74.1)
+      vite: 4.5.3(sass@1.75.0)
 
   w3c-keyname@2.2.8: {}
 
@@ -3031,6 +3029,6 @@ snapshots:
 
   wrappy@1.0.2: {}
 
-  yaml@2.4.1: {}
+  yaml@2.4.2: {}
 
   zwitch@2.0.4: {}
