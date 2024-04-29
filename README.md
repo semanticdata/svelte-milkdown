@@ -1,10 +1,6 @@
 # Svelte 🥛 Milkdown
 
-![code size](https://img.shields.io/github/languages/code-size/semanticdata/svelte-milkdown)
-![repo size](https://img.shields.io/github/repo-size/semanticdata/svelte-milkdown)
-![commit activity](https://img.shields.io/github/commit-activity/t/semanticdata/svelte-milkdown)
-![last commit](https://img.shields.io/github/last-commit/semanticdata/svelte-milkdown)
-![website up?](https://img.shields.io/website/https/svelte-milkdown.vercel.app.svg)
+![code size](https://img.shields.io/github/languages/code-size/semanticdata/svelte-milkdown) ![repo size](https://img.shields.io/github/repo-size/semanticdata/svelte-milkdown) ![commit activity](https://img.shields.io/github/commit-activity/t/semanticdata/svelte-milkdown) ![last commit](https://img.shields.io/github/last-commit/semanticdata/svelte-milkdown) ![website up?](https://img.shields.io/website/https/svelte-milkdown.vercel.app.svg)
 
 A simple example for using [Milkdown](https://milkdown.dev/) with [Svelte](https://svelte.dev/).
 

@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "vite",
+    "build": "vite build",
+    "serve": "vite serve",
     "check": "npx prettier --check .",
     "format": "npx prettier --write ."
   },
@@ -27,12 +29,14 @@
     "@sveltejs/vite-plugin-svelte": "^2.5.3",
     "@tailwindcss/typography": "^0.5.13",
     "@tsconfig/svelte": "^3.0.0",
+    "open": "^10.1.0",
     "prettier": "3.2.5",
     "svelte": "^3.59.2",
     "svelte-check": "^2.10.3",
     "tailwindcss": "^3.4.3",
     "tslib": "^2.6.2",
     "typescript": "^4.9.5",
-    "vite": "^4.5.3"
+    "vite": "^4.5.3",
+    "vite-plugin-pwa": "^0.19.8"
   }
 }

@@ -1,12 +1,12 @@
 <script lang="ts">
-  import { Editor, rootCtx, defaultValueCtx } from "@milkdown/core";
-  import { commonmark } from "@milkdown/preset-commonmark";
-  import { nord } from "@milkdown/theme-nord";
+  import {Editor, rootCtx, defaultValueCtx} from '@milkdown/core'
+  import {commonmark} from '@milkdown/preset-commonmark'
+  import {nord} from '@milkdown/theme-nord'
 
-  import { history } from "@milkdown/plugin-history";
-  import { clipboard } from "@milkdown/plugin-clipboard";
-  import { gfm } from "@milkdown/preset-gfm";
-  import { cursor } from "@milkdown/plugin-cursor";
+  import {history} from '@milkdown/plugin-history'
+  import {clipboard} from '@milkdown/plugin-clipboard'
+  import {gfm} from '@milkdown/preset-gfm'
+  import {cursor} from '@milkdown/plugin-cursor'
 
   const markdown = `# Milkdown Svelte Commonmark
 
@@ -49,14 +49,13 @@ You can [link](https://example.dom/).
 
 ## Images
 
-![image](https://just-the-docs.com/assets/images/small-image.jpg)`;
+![image](https://just-the-docs.com/assets/images/small-image.jpg)`
 
   function editor(dom) {
     Editor.make()
       .config((ctx) => {
-        ctx.set(rootCtx, dom);
-        // ctx.set(rootCtx, "#content");
-        ctx.set(defaultValueCtx, markdown);
+        ctx.set(rootCtx, dom)
+        ctx.set(defaultValueCtx, markdown)
       })
       .config(nord)
       .use(commonmark)
@@ -64,7 +63,7 @@ You can [link](https://example.dom/).
       .use(history)
       .use(clipboard)
       .use(cursor)
-      .create();
+      .create()
   }
 </script>
 

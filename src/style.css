@@ -2,44 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  /* background: #e0b0ff; */
+* {
+  box-sizing: border-box;
 }
 
 body {
-  /* background: paleturquoise; */
+  @apply mx-auto;
+  max-width: 80ch;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
-  /* background: palevioletred; */
+  flex: 1;
 }
 
+header,
+footer {
+  @apply py-4 px-2;
+  min-height: 3rem;
+}
+
+h1 {
+  @apply text-2xl;
+}
+
+/* Milkdown Editor */
 .milkdown {
-  /* background: palegreen; */
-  @apply bg-slate-50 px-2 py-4 m-5 border rounded;
-  margin-top: 2rem;
-  height: 80vh;
-  /* border-radius: 14px; */
-  /* width: 50vw; */
-  /* margin: auto; */
-  /* padding: 5rem; */
+  @apply bg-slate-100 py-4 m-4 border rounded;
   overflow-y: scroll;
+  max-height: calc(100vh - 10rem);
 }
 
-.editor {
-  /* background: palegoldenrod; */
+.milkdown .editor {
   @apply mx-auto;
+  line-height: 1.5;
 }
 
-section.section {
-  /* background: magenta; */
-  max-width: 1000px;
-  margin: auto;
+.milkdown .editor h2 {
+  @apply mt-5;
+}
+
+.milkdown .editor img {
+  width: 100%;
+  border: 0.15rem solid rebeccapurple;
+  border-radius: 0.3rem;
 }
 
 @media screen and (max-width: 900px) {
   .milkdown {
-    margin: 2rem 0;
-    padding: 1rem 1rem;
+    @apply bg-slate-100 p-4 m-4 border rounded;
+    max-height: calc(100vh - 10rem);
   }
 }
